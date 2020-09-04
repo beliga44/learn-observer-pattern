@@ -8,5 +8,5 @@ Kode ini menjelaskan **sedikit** tentang bagaimana `Observer` bekerja.
 
 Contoh dari kode ini adalah:
 
-Terdapat object **Repo** yang dapat melakukan disubscribe oleh **SlackNotification** dan **TelegramNotification** dimana pada saat **Repo** menjalankan fungsi `pushRepo`, maka dengan bantuan **RepoNotificationManager** akan mengabari semua **subscriber** untuk menjalankan fungsi `update`.
+Terdapat object **Repo** yang dapat disubscribe oleh **SlackNotification** dan **TelegramNotification** dimana pada saat **Repo** menjalankan fungsi `pushRepo`, maka dengan bantuan **RepoNotificationManager** akan mengabari semua **subscriber** untuk menjalankan fungsi `update`.
 
